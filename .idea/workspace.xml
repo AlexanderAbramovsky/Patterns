@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cca26490-c030-4009-88c5-f863f8e11a5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/MyImplementation/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/MyImplementation/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/MyImplementation/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/MyImplementation/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/JavaImplementation/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/JavaImplementation/WeatherStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patterns/Observer/MyImplementation/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patterns/Observer/MyImplementation/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patterns/Observer/MyImplementation/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patterns/Observer/MyImplementation/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patterns/Observer/MyImplementation/WeatherStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Patterns/Observer/MyImplementation/WeatherStation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/MyImplementation/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/MyImplementation/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/MyImplementation/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/MyImplementation/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer/MyImplementation/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer/MyImplementation/WeatherStation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WeatherStation">
+  <component name="RunManager" selected="Application.WeatherStation (1)">
     <configuration name="SwingObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Observer.Swing.SwingObserver" />
       <module name="Patterns" />
@@ -71,6 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherStation (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.JavaImplementation.WeatherStation" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Observer.JavaImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Observer.MyImplementation.WeatherStation" />
       <module name="Patterns" />
@@ -86,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherStation (1)" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.SwingObserver" />
         <item itemvalue="Application.Test" />
